@@ -1,0 +1,37 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    // app build info
+    ext.VERSION_COMPILE_SDK = 29
+    ext.VERSION_BUILD_TOOLS = '29.0.2'
+    ext.VERSION_MIN_SDK = 15
+    ext.VERSION_TARGET_SDK = 29
+    ext.VERSION_CODE = 1
+    ext.VERSION_NAME = '1.0'
+    ext.SOURCE_COMPATIBILITY = JavaVersion.VERSION_1_7
+
+    // plugin info
+    // upload
+    // gradlew clean install bintrayUpload
+    // gradlew clean
+    // gradlew install
+    // gradlew bintrayUpload
+    ext.BINTRAY_UPLOAD_GROUP_ID = 'com.mly.arsc'
+    ext.BINTRAY_UPLOAD_VERSION = '0.1'
+
+    repositories {
+        jcenter()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.2'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        google()
+    }
+}

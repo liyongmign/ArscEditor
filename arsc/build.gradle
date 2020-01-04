@@ -1,0 +1,10 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+sourceCompatibility = SOURCE_COMPATIBILITY
+targetCompatibility = SOURCE_COMPATIBILITY
+
+apply from: 'upload.gradle'
