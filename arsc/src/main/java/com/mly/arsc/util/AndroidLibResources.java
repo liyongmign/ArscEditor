@@ -88,8 +88,7 @@ final public class AndroidLibResources {
     }
 
     public ResTable getResTable() {
-        ResTable resTable = new ResTable(this);
-        return resTable;
+        return new ResTable();
     }
 
     public ResTable getResTable(InputStream ARSCStream) throws IOException {
@@ -97,7 +96,7 @@ final public class AndroidLibResources {
     }
 
     public ResTable getResTable(InputStream ARSCStream, boolean loadMainPkg) throws IOException {
-        ResTable resTable = new ResTable(this);
+        ResTable resTable = new ResTable();
         if (loadMainPkg) {
             loadMainPkg(resTable, ARSCStream);
         }

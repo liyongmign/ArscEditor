@@ -1,0 +1,65 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="zhao.arsceditor"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml
+10    <!-- 创建与删除文件的权限 -->
+11    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+11-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:22:5-84
+11-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:22:22-81
+12    <!-- 写入文件的权限 -->
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:24:5-81
+13-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:24:22-78
+14    <!-- 读取文件的权限 -->
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:26:5-80
+15-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:26:22-77
+16    <!-- 联网权限 -->
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:28:5-67
+17-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:28:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:29:5-79
+18-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:29:22-76
+19
+20    <application
+20-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:5:5-20:19
+21        android:allowBackup="true"
+21-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:6:9-35
+22        android:debuggable="true"
+23        android:icon="@drawable/ic_launcher"
+23-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:7:9-45
+24        android:label="@string/app_name" >
+24-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:8:9-41
+25        <activity
+25-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:9:9-19:20
+26            android:name="zhao.arsceditor.MainActivity"
+26-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:10:13-41
+27            android:label="@string/app_name"
+27-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:11:13-45
+28            android:windowSoftInputMode="adjustPan" >
+28-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:12:13-52
+29            <intent-filter>
+29-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:13:13-18:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:14:17-69
+30-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:14:25-66
+31                <action android:name="android.intent.action.VIEW" />
+31-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:15:17-69
+31-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:15:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:17:17-77
+33-->D:\Android\AndroidWorkspace\ArscEditor\app\src\main\AndroidManifest.xml:17:27-74
+34            </intent-filter>
+35        </activity>
+36    </application>
+37
+38</manifest>

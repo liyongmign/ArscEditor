@@ -37,14 +37,14 @@ import com.mly.arsc.decode.data.value.ResValueFactory;
  */
 public class ResPackage {
 	private final static Logger LOGGER = Logger.getLogger(ResPackage.class.getName());
-	private final Map<ResConfigFlags, ResType> mConfigs = new LinkedHashMap<ResConfigFlags, ResType>();
+	private final Map<ResConfigFlags, ResType> mConfigs = new LinkedHashMap<>();
 	private final int mId;
 	private final String mName;
-	private final Map<ResID, ResResSpec> mResSpecs = new LinkedHashMap<ResID, ResResSpec>();
+	private final Map<ResID, ResResSpec> mResSpecs = new LinkedHashMap<>();
 	private final ResTable mResTable;
-	private final Set<ResID> mSynthesizedRes = new HashSet<ResID>();
+	private final Set<ResID> mSynthesizedRes = new HashSet<>();
 
-	private final Map<String, ResTypeSpec> mTypes = new LinkedHashMap<String, ResTypeSpec>();
+	private final Map<String, ResTypeSpec> mTypes = new LinkedHashMap<>();
 
 	private ResValueFactory mValueFactory;
 

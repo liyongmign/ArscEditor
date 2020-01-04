@@ -16,6 +16,12 @@
  * @author zhaohai
  * @time 2015.10
  * ARSC编辑器主界面
+ * @author zhaohai
+ * @time 2015.10
+ * ARSC编辑器主界面
+ * @author zhaohai
+ * @time 2015.10
+ * ARSC编辑器主界面
  */
 
 /**
@@ -63,6 +69,7 @@ import java.util.List;
 import com.mly.arsc.util.AndroidLibResources;
 import com.mly.arsc.decode.ARSCCallBack;
 import com.mly.arsc.decode.data.ResTable;
+
 import zhao.arsceditor.Translate.DoTranslate;
 
 @SuppressWarnings("deprecation")

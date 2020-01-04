@@ -23,16 +23,14 @@ import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
 
-import com.mly.arsc.util.AndroidLibResources;
-
 /**
  * @author Ryszard Wiśniewski <brut.alll@gmail.com>
  */
 public class ResTable {
 	private boolean mAnalysisMode = false;
 
-	private final Set<ResPackage> mFramePackages = new LinkedHashSet<ResPackage>();
-	private final Set<ResPackage> mMainPackages = new LinkedHashSet<ResPackage>();
+	private final Set<ResPackage> mFramePackages = new LinkedHashSet<>();
+	private final Set<ResPackage> mMainPackages = new LinkedHashSet<>();
 	private int mPackageId;
 
 	private String mPackageOriginal;
@@ -45,9 +43,6 @@ public class ResTable {
 	private Map<String, String> mVersionInfo = new LinkedHashMap<String, String>();
 
 	public ResTable() {
-	}
-
-	public ResTable(AndroidLibResources andRes) {
 	}
 
 	public void addPackage(ResPackage pkg, boolean main) throws IOException {

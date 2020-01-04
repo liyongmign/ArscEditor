@@ -94,5 +94,8 @@
     <orderEntry type="library" name="Gradle: __local_aars__:D.\Android\AndroidWorkspace\ArscEditor\app\libs\json_simple.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:D.\Android\AndroidWorkspace\ArscEditor\app\libs\microsoft_translator_api.jar:unspecified@jar" level="project" />
     <orderEntry type="module" module-name="arsc" />
+    <orderEntry type="module" module-name="arsc" />
+    <orderEntry type="module" module-name="arsc" />
+    <orderEntry type="module" module-name="arsc" />
   </component>
 </module>
